@@ -1,0 +1,16 @@
+{
+  "name": "youtube-live-hub",
+  "version": "1.0.0",
+  "description": "YouTube Live API automation hub for OBS Studio broadcasts, metadata SEO, and thumbnail management",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "auth": "node auth.js",
+    "create": "node create-broadcast.js",
+    "list": "node list-broadcasts.js"
+  },
+  "dependencies": {
+    "googleapis": "^144.0.0",
+    "dotenv": "^16.4.5"
+  }
+}
