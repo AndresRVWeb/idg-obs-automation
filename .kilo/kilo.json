@@ -1,0 +1,30 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "skills": {
+    "paths": [
+      ".agents/skills",
+      "skills"
+    ]
+  },
+  "mcp": {
+    "obs-websocket": {
+      "type": "local",
+      "command": ["npx", "-y", "@modelcontextprotocol/server-everything"],
+      "enabled": true
+    }
+  },
+  "permission": {
+    "external_directory": {
+      "C:\\Proyectos-Antigravity\\*": "allow"
+    },
+    "bash": {
+      "Get-ChildItem *": "allow",
+      "New-Item *": "allow",
+      "npx *": "allow",
+      "npm *": "allow",
+      "node *": "allow",
+      "python *": "allow",
+      "pip *": "allow"
+    }
+  }
+}
