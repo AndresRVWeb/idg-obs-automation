@@ -1,0 +1,15 @@
+{
+  "name": "idg-youtube-vps-agent",
+  "version": "1.0.0",
+  "description": "24/7 autonomous background agent for IDG YouTube live transcription SEO & comment replying",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "googleapis": "^144.0.0",
+    "ssh2": "^1.17.0"
+  }
+}
